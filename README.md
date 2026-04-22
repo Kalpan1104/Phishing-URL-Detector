@@ -14,6 +14,9 @@ The project aims is to detect malicious websites and developing an incremental l
 ```bash
 pip install pandas numpy scikit-learn torch matplotlib seaborn
 ```
+
+The dataset is included in the repo as `PhiUSIIL_Phishing_URL_Dataset.zip`. Before running any notebook, unzip it and save it under Final Phase.
+
 ## How to Run
 
 1. Start with `DeepLearning.ipynb` — DNN training (256 → 128 → 64 → 2, BatchNorm, Dropout)
