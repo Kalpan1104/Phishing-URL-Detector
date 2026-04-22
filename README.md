@@ -2,19 +2,18 @@
 The project aims is to detect malicious websites and developing an incremental learning framework to identify malicious websites.
 
 
-## Requirements
-
+## Setup
+ 
 | Library | Use |
 |---|---|
 | `torch` | DNN training |
-| `scikit-learn` | Random Forest, Logistic Regression, preprocessing |
+| `scikit-learn` | Random Forest, Gradient Boosting, Logistic Regression, preprocessing, metrics |
 | `pandas` / `numpy` | Data loading and manipulation |
-| `matplotlib` / `seaborn` | Visualizations |
-| `joblib` | Saving scaler and models |
-```bash
-pip install pandas numpy scikit-learn torch joblib matplotlib seaborn
-```
+| `matplotlib` / `seaborn` | Visualizations, confusion matrix, ROC/PR curves |
 
+```bash
+pip install pandas numpy scikit-learn torch matplotlib seaborn
+```
 ## How to Run
 
 1. Start with `DeepLearning.ipynb` — DNN training (256 → 128 → 64 → 2, BatchNorm, Dropout)
