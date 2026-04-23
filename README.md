@@ -9,11 +9,8 @@ Classifies URLs as legitimate or phishing using only URL-extractable features â€
 - [Architecture](#architecture)
 - [Dataset](#dataset)
 - [Models](#models)
-- [Results](#results)
 - [Setup](#setup)
 - [How to Run](#how-to-run)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
